@@ -1,0 +1,18 @@
+{
+  "name": "eyolo",
+  "version": "0.0.1",
+  "description": "Electron program to execute object detection using YOLO.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Kiyoshi Nishikawa",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.4"
+  },
+  "dependencies": {
+    "python-shell": "^5.0.0"
+  }
+}

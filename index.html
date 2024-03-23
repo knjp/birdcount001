@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>鳥!</title>
+  </head>
+  <body>
+    <h1>小笠原!</h1>
+    <center>
+      <video controls width="512">
+        <source src="file:yolo/video/a_007.mp4" />
+      </video>
+    <br>
+      <button id="bt001">検出</button>
+      <button id="bt002">解析</button>
+    </center>
+    <center>
+    <textarea id="ppython" rows="10" cols="80">
+        The output will be shown in this area
+    </textarea>
+    </center>
+    <p id="info"></p>
+  </body>
+  <script src="./renderer.js"></script>
+</html>
